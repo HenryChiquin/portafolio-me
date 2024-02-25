@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portafolio-me/static/css/main.f925fe78.css",
-    "main.js": "/portafolio-me/static/js/main.576fed91.js",
+    "main.css": "/portafolio-me/static/css/main.f69a9020.css",
+    "main.js": "/portafolio-me/static/js/main.b1e15efc.js",
     "static/media/Henry-Cv.pdf": "/portafolio-me/static/media/Henry-Cv.f2c6632245e0d301cd68.pdf",
     "static/media/portada2CV.JPG": "/portafolio-me/static/media/portada2CV.7d4a3e238103a1726367.JPG",
     "static/media/testimonial3.png": "/portafolio-me/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/testimonial2.png": "/portafolio-me/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/portafolio-me/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/portafolio-me/index.html",
-    "main.f925fe78.css.map": "/portafolio-me/static/css/main.f925fe78.css.map",
-    "main.576fed91.js.map": "/portafolio-me/static/js/main.576fed91.js.map"
+    "main.f69a9020.css.map": "/portafolio-me/static/css/main.f69a9020.css.map",
+    "main.b1e15efc.js.map": "/portafolio-me/static/js/main.b1e15efc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f925fe78.css",
-    "static/js/main.576fed91.js"
+    "static/css/main.f69a9020.css",
+    "static/js/main.b1e15efc.js"
   ]
 }
