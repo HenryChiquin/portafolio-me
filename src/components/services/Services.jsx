@@ -8,14 +8,14 @@ const Services = () => {
 
     return (
         <section className="services section" id="services">
-            <h2 className="section__title">Servicio </h2>
-            <span className="section__subtitle">Lo que ofrezco</span>
+            <h2 className="section__title">Portafolio </h2>
+            <span className="section__subtitle">Proyectos que he hecho</span>
 
             <div className="services__container container grid">
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon">
-                            <h3 className="services__title"> Producto<br/>Designer </h3>                            
+                            <h3 className="services__title"> Desarrollo<br/>backend </h3>                            
                         </i>
                     </div>
                     
@@ -28,43 +28,43 @@ const Services = () => {
                         <div className="services__modal-content">
                             <i onClick={()=>{toggleTab(0)}} className="uil uil-times services__modal-close"></i>
 
-                            <h3 className="services__modal-title">Producto Designer</h3>
+                            <h3 className="services__modal-title">Desarrollo</h3>
                             <p className="services__modal-description">
-                                Servicio con más de 3 años de experiencia Brindando un trabajo de calidad a clientes y empresas.
+                                Proyectos y practicas realzadas en distintos frameworks
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desarrollo la interfaz de usuario
+                                        C# ASP.NET: Desarrollo de Api Rest
                                     </p>                                    
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desarrollo de paginas web
+                                        C# .Net Core Desarrollo de Api rest y autenticacion JWT
                                     </p>                                     
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Creo interacciones de elementos ux
+                                        JAVA: Desarrollo de api en entorno Spring Boot
                                     </p>                                    
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Posiciono la marca de tu empresa
+                                        C#.Net Desarrollo de conexion directa a la base de datos
                                     </p>                                    
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Diseño y maquetas de productos para empresas.
+                                        C# Desarrollo en entorno MVC
                                     </p>                                    
                                 </li>
                             </ul>                           
@@ -75,7 +75,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon">
-                            <h3 className="services__title"> Ui/Ux <br/> Designer </h3>                            
+                            <h3 className="services__title"> Data <br/> Base de datos </h3>                            
                         </i>
                     </div>
                     
@@ -87,46 +87,33 @@ const Services = () => {
                     <div className={toggleState===2? "services__modal active-modal":"services__modal"}>
                         <div className="services__modal-content">
                             <i onClick={()=>{toggleTab(0)}} className="uil uil-times services__modal-close"></i>
-                            <h3 className="services__modal-title"> Ui/Ux Designer</h3>
+                            <h3 className="services__modal-title"> Analisis y transformacion de datos</h3>
                             <p className="services__modal-description">
-                                Servicio con más de 3 años de experiencia Brindando un trabajo de calidad a clientes y empresas.
+                                Creacioon de consultas, triggers, procedimientos almacenados y modelado de tablas.
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desarrollo la interfaz de usuario
+                                       SQL Server - Oracle: Generacion de consultas para abstraer datos
                                     </p>                                    
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desarrollo de paginas web
+                                        SQL Server: Creacion de trigger para ejecutar funciones en distintos eventos del comportamiento de cada tabla
                                     </p>                                    
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> </i>
                                     <p className="services__modal-info">
-                                        Creo interacciones de elementos ux
+                                        SQL Server: Creacion de procedimientos almacenados 
                                     </p>                                   
                                 </li>
 
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">
-                                        Posiciono la marca de tu empresa
-                                    </p>                                    
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"> </i>
-                                    <p className="services__modal-info">
-                                        Diseño y maquetas de productos para empresas.
-                                    </p>
-                                
-                                </li>
+                               
                             </ul>                            
                         </div>
                     </div>
@@ -135,7 +122,7 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon">
-                            <h3 className="services__title"> Visual <br/> Designer </h3>                            
+                            <h3 className="services__title"> Desarrollo <br/> Front End </h3>                            
                         </i>
                     </div>
                     
@@ -147,9 +134,9 @@ const Services = () => {
                     <div className={toggleState === 3? "services__modal active-modal":"services__modal"}>
                         <div className="services__modal-content">                            
                             <i onClick={()=>{toggleTab(0)}} className="uil uil-times services__modal-close"></i>
-                            <h3 className="services__modal-title">Visual Designer</h3>
+                            <h3 className="services__modal-title">Front End</h3>
                             <p className="services__modal-description">
-                                Servicio con más de 3 años de experiencia Brindando un trabajo de calidad a clientes y empresas.
+                                Desarrollos de interfaz de usuario realizados en diferentes lenguajes de programacion
                             </p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -162,7 +149,7 @@ const Services = () => {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon">  </i>
                                     <p className="services__modal-info">
-                                        Desarrollo de paginas web
+                                        Desarrollo de paginas web con HTML y Javascript
                                     </p>
                                      
                                 </li>
@@ -170,7 +157,7 @@ const Services = () => {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> </i>
                                     <p className="services__modal-info">
-                                        Creo interacciones de elementos ux
+                                        Creo interacciones de elementos usando CSS Y Saas
                                     </p>
                                    
                                 </li>
@@ -178,7 +165,7 @@ const Services = () => {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon">  </i>
                                     <p className="services__modal-info">
-                                        Posiciono la marca de tu empresa
+                                        Desarrollo en Android Nativo 
                                     </p>
                                     
                                 </li>
@@ -186,7 +173,7 @@ const Services = () => {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"> </i>
                                     <p className="services__modal-info">
-                                        Diseño y maquetas de productos para empresas.
+                                        Diseño y maquetas de interfaz de usuario con React
                                     </p>
                                     
                                 </li>

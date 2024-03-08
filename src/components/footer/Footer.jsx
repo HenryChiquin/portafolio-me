@@ -9,27 +9,27 @@ const Footer = () => {
 
             <ul className="footer__list">
                 <li>
-                    <a href="#about" className="footer__link">About</a>
+                    <a href="#about" className="footer__link">Acerca de</a>
                 </li>
                 <li>
-                    <a href="#portafolio" className="footer__link">Projects</a>
+                    <a href="#services" className="footer__link">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#testimonials" className="footer__link">Testimonials</a>
+                    <a href="#testimonial" className="footer__link">Empresas</a>
                 </li>
             </ul>
 
             <div className="footer__social">
-                <a href="~" className="footer__social-link" target={"_blank"}>
-                    <i className="bx bxl-instagram"></i>
+                <a href="https://wa.me/42249401" className="footer__social-link" target={"_blank"}>
+                    <i className="bx bxl-whatsapp"></i>
                 </a>
 
-                <a href="~" className="footer__social-link" target={"_blank"}>
+                <a href="https://github.com/HenryChiquin" className="footer__social-link" target={"_blank"}>
                     <i className="bx bxl-github"></i>
                 </a>
 
-                <a href="~" className="footer__social-link" target={"_blank"}>
-                    <i className="bx bxl-dribbble"></i>
+                <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox' className="footer__social-link" target={"_blank"}>
+                    <i className="bx bx-mail-send"></i>
                 </a>
             </div>
             <span className="footer__copy">

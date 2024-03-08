@@ -3,7 +3,7 @@ import React from 'react'
 function Backend(){
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Backend Developer</h3>
+        <h3 className="skills__title">(Backend / DB) Developer</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -12,8 +12,8 @@ function Backend(){
                     <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">PHP</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <h3 className="skills__name">Reporteria (Crystal Report/Telerik)</h3>
+                        <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
 
@@ -21,8 +21,8 @@ function Backend(){
                     <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Node Js</h3>
-                        <span className="skills__level">Basic </span>
+                        <h3 className="skills__name">Git</h3>
+                        <span className="skills__level">Intermedio</span>
                     </div>
                 </div>
 
@@ -30,8 +30,8 @@ function Backend(){
                     <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Python </h3>
-                        <span className="skills__level">Intermediate</span>
+                        <h3 className="skills__name">Spring Boot </h3>
+                        <span className="skills__level">Basico</span>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function Backend(){
 
                     <div>
                         <h3 className="skills__name">SQL Server</h3>
-                        <span className="skills__level">Intermediate </span>
+                        <span className="skills__level">Intermedio </span>
                     </div>
                 </div>
 
@@ -50,8 +50,8 @@ function Backend(){
                     <i className='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Firebase </h3>
-                        <span className="skills__level">Intermediate </span>
+                        <h3 className="skills__name">Java </h3>
+                        <span className="skills__level">Intermedio </span>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ function Backend(){
 
                     <div>
                         <h3 className="skills__name">C# .Net </h3>
-                        <span className="skills__level">Intermediate </span>
+                        <span className="skills__level">Intermedio </span>
                     </div>
                 </div>
 

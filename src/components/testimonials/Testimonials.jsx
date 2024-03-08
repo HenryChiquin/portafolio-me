@@ -16,9 +16,9 @@ import { Pagination } from 'swiper/modules';
 
 const Testimonials = () => {
   return (
-    <section className="testimonial container section">
-        <h2 className="section__title">My clients say </h2>
-        <span className="section__subtitle">Testimonial</span>
+    <section className="testimonial container section" id="testimonial">
+        <h2 className="section__title">Empresas </h2>
+        <span className="section__subtitle">Empresas donde he laborado</span>
 
         <Swiper className="testimonial__container"
             loop={true}
@@ -38,14 +38,16 @@ const Testimonials = () => {
             }}
             modules={[Pagination]}
         >
-            {Data.map(({id, image, title, description})=>{
+            {Data.map(({id, image, title, description, link})=>{
+              
+              
                 return(
-                    <SwiperSlide className='testimonial__card' key={id} >
+                    <SwiperSlide className='testimonial__card' key={id} onClick={()=>window.open(link)} >
                         <img src={image} alt="" className='testimonial__img' />
                         
                         <h3 className="testimonial__name">{title}</h3>
                         
-                        <p className="testimonial__description">{description}</p>
+                        <p className="testimonial__description">{description} </p>
                     </SwiperSlide>
                 )
             })}
