@@ -19,13 +19,16 @@ function Header(){
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo"> Henry </a>
+                <a href="index.html" className="nav__logo"> </a>
 
                 <div className={Toggle?"nav__menu show-menu": "nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav_item">
                             <a href="#home" 
-                                onClick={()=> setActiveNav("#home")}
+                                onClick={()=> {
+                                    setActiveNav("#home")
+                                    showMenu(false)
+                                }}
                                 className={activeNav === "#home"? "nav__link active-link":"nav__link"}
                                 > 
 
@@ -35,14 +38,20 @@ function Header(){
 
                         <li className="nav_item">
                             <a href="#about" 
-                                onClick={()=> setActiveNav("#about")}
+                                onClick={()=> {
+                                    setActiveNav("#about")
+                                    showMenu(false)
+                                }}
                                 className={activeNav === "#about"? "nav__link active-link":"nav__link"}> 
                                 <i className="uil uil-user nav__icon"></i> Acerca de                               
                             </a>
                         </li>
                         <li className="nav_item">
                             <a href="#skills" 
-                                onClick={()=> setActiveNav("#skills")}
+                                onClick={()=> {
+                                    setActiveNav("#skills")
+                                    showMenu(false)
+                                }}
                                 className={activeNav === "#skills"? "nav__link active-link":"nav__link"}
                             > 
                                 <i className="uil uil-file-alt nav__icon"></i> Habilidades
@@ -50,7 +59,10 @@ function Header(){
                         </li>
                         <li className="nav_item">
                             <a href="#services"
-                                onClick={()=> setActiveNav("#services")}
+                                onClick={()=> {
+                                    setActiveNav("#services")
+                                    showMenu(false)
+                                }}
                                 className={activeNav === "#services"? "nav__link active-link":"nav__link"}
                             > 
                                 <i className="uil uil-briefcase-alt nav__icon"></i> Portafolio
@@ -59,7 +71,10 @@ function Header(){
                         </li>
                         <li className="nav_item">
                             <a href="#qualification" 
-                                onClick={()=> setActiveNav("#qualification")}
+                                onClick={()=> {
+                                    setActiveNav("#qualification")
+                                    showMenu(false)
+                                }}
                                 className={activeNav === "#qualification"? "nav__link active-link":"nav__link"}
                             > 
                                 <i className="uil uil-scenery nav__icon"></i> Experiencia
@@ -68,7 +83,10 @@ function Header(){
                         </li>
                         <li className="nav_item">
                             <a href="#contact" 
-                                onClick={()=> setActiveNav("#contact")}
+                                onClick={()=>{ 
+                                    setActiveNav("#contact")
+                                    showMenu(false)
+                                }}
                                 className={activeNav === "#contact"? "nav__link active-link":"nav__link"}
                             > 
                                 <i className="uil uil-message nav__icon"></i> Contacto
